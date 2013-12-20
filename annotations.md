@@ -1,5 +1,5 @@
 @annotation:tour hello_world
-#Hello World
+#1. Hello World
 ##Challenge
 Write a function that takes an input string and returns it uppercased.
 
@@ -8,7 +8,7 @@ Write a function that takes an input string and returns it uppercased.
 - `input`: a String of random words (lorem ipsum).
 
 @annotation:tour higher_order_functions
-#Higher Order Functions
+#2. Higher Order Functions
 ##Challenge
 A higher-order function (also functional form, functional or functor) is a function that does at least one of the following:
 
@@ -61,7 +61,7 @@ Convert the following code from a for-loop to Array#map:
 
 
 @annotation:tour basic_filter
-#Basic: Filter
+#3. Basic: Filter
 ##Challenge
 Use [Array#filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) to write a function called `getShortMessages`.
 
@@ -94,7 +94,7 @@ The output should be an array containing the messages themselves, without their 
 
 
 @annotation:tour basic_every_some
-#Basic: Every Some
+#5. Basic: Every Some
 ##Challenge
 Return a function that takes a list of valid users, and returns a function that returns `true` if all of the supplied users exist in the original list of users.
 
@@ -134,7 +134,7 @@ Use [array#some](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/
 
 
 @annotation:tour basic_reduce
-#Basic: Reduce
+#6. Basic: Reduce
 ##Challenge
 Given an Array of strings, use [Array#reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) to create an object that contains the number of times each string occured in the array. Return the object directly (no need to console.log).
 
@@ -164,7 +164,7 @@ Given an Array of strings, use [Array#reduce](https://developer.mozilla.org/en-U
 
 
 @annotation:tour basic_recursion
-#Basic: Recursion
+#7. Basic: Recursion
 Recursion is a fundamental programming concept which can lead to elegant and efficient solutions to algorithmic problems. In fact, recursion is so powerful, all iterating behaviour can be defined using recursive functions. You will find recursion indispensable when iterating over nested data structures. 
  
 A recursive function is a function which calls itself. For example, this recursive function will take an array of words, and return an array of those words, uppercased. 
@@ -215,7 +215,7 @@ For simplicity, your implementation of reduce **need not replicate the behaviour
  
 
 @annotation:tour basic_call
-#Basic: Call
+#8. Basic: Call
 JavaScript implements 'duck' typing. Duck typing is a style of dynamic typing in which an object's methods and properties determine the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface. The name of the concept refers to the duck test, attributed to James Whitcomb Riley, which may be phrased as follows:
 
     "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck"
@@ -298,7 +298,7 @@ Example:
 
 
 @annotation:tour partial_application_without_bind
-#Partial application without bind
+#9. Partial application without bind
 [Partial application](https://en.wikipedia.org/wiki/Partial_application) allows you create new functions from existing functions, while fixing some number of arguments. After setting the arguments to be partially applied, you get a new function ready to take the rest of the arguments and perhaps execute the original
 function.
 
@@ -379,7 +379,7 @@ Also contrast `apply` with `Function.prototype.call`:
 
 
 @annotation:tour partial_application_with_bind
-#Partial application with bind
+#10. Partial application with bind
 Use [Function#bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) to implement a logging function that allows you to namespace messages.
 
 Your implementation should take a namespace string, and return a function that prints messages to the console with the namespace prepended.
@@ -411,7 +411,7 @@ Make sure *all* arguments passed to the returned logging function are printed.
 
 
 @annotation:tour implement_map_with_reduce
-#Implement map with reduce
+#11. Implement map with reduce
 Use [Array#reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) to implement a simple version of Array#map.
 
 ### Expected Output
@@ -436,7 +436,7 @@ A function `map` that applies a function to each item in an array and collects t
 
 
 @annotation:tour function_spies
-#Function Spies
+#12. Function Spies
 Override a specified method of an object with new functionality while still maintaining all of the old behaviour.
 
 Create a spy that keeps track of how many times a function is called.
@@ -464,7 +464,7 @@ Create a spy that keeps track of how many times a function is called.
 
 
 @annotation:tour blocking_event_loop
-#Blocking Event Loop
+#13. Blocking Event Loop
 ###Challenge
 Modify the recursive `repeat` function provided in the boilerplate, such that it does not block the event loop (i.e. [Timers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Timers) and IO handlers can fire). This necessarily requires repeat to be asynchronous.
 
@@ -480,7 +480,7 @@ Try to perform as many operations as you can before the timeout fires!
 
 
 @annotation:tour trampoline
-#Trampoline
+#14. Trampoline
 ###Challenge
 The boilerplate includes a definition of `repeat`. `repeat` will take a Function operation, and a Number num, and invoke operation num times:
     
@@ -518,7 +518,7 @@ return value is not important.
 
 
 @annotation:tour async_loops
-#Async Loops
+#15. Async Loops
 This code is broken!
 
 A Java developer has committed this terrible code to our codebase and didn't test it!
@@ -553,7 +553,7 @@ The order of the users should match the order of supplied user ids. Because this
 
 
 @annotation:tour recursion
-#Recursion
+#16. Recursion
 ###Challenge
 Implement a recursive function that returns all of the unique dependencies, and sub-dependencies of a module, sorted alphabetically. Dependencies should be printed as dependency@version e.g. 'inflection@1.2.6'. Multiple versions of the same module are allowed, but duplicates modules of the same version should be removed.
 
@@ -590,7 +590,7 @@ Implement a recursive function that returns all of the unique dependencies, and 
 
 
 @annotation:tour currying
-#Currying
+#17. Currying
 This is an example implementation of `curry3`, which curries up to 3 arguments:
 
     function curry3(fun){
@@ -644,7 +644,7 @@ In this challenge, we're going to implement a [curry](http://en.wikipedia.org/wi
 
 
 @annotation:tour function_call
-#Function Call
+#18. Function Call
 ###Challenge
 Write a function that allows you to use [`Array.prototype.slice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) without using `.call` to invoke it.
 
