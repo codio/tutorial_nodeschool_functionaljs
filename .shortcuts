@@ -1,0 +1,5 @@
+{
+  "Run": "functional-javascript-workshop select {{current_file}} && functional-javascript-workshop run {{current_file}}",
+  "Verify": "functional-javascript-workshop select {{current_file}} && functional-javascript-workshop verify {{current_file}},
+  "default": "Run"
+}
