@@ -12,23 +12,23 @@ if [ $2 == "hello_world" ]; then
 elif [ $2 == "higher_order_functions" ]; then 
     STR="Higher Order Functions" 
 elif [ $2 == "basic_map" ]; then 
-    STR="Basic Map" 
+    STR="Basic: Map" 
 elif [ $2 == "basic_filter" ]; then 
-    STR="Basic Filter" 
+    STR="Basic: Filter" 
 elif [ $2 == "basic_every_some" ]; then 
-    STR="Basic Every Some" 
+    STR="Basic: Every Some" 
 elif [ $2 == "basic_reduce" ]; then 
-    STR="Basic Reduce" 
+    STR="Basic: Reduce" 
 elif [ $2 == "basic_recursion" ]; then 
-    STR="Basic Recursion" 
+    STR="Basic: Recursion" 
 elif [ $2 == "basic_call" ]; then 
-    STR="Basic Call" 
+    STR="Basic: Call" 
 elif [ $2 == "partial_application_without_bind" ]; then 
-    STR="Partial Application Without Bind" 
+    STR="Partial Application without Bind" 
 elif [ $2 == "partial_application_with_bind" ]; then 
-    STR="Partial Application With Bind" 
+    STR="Partial Application with Bind" 
 elif [ $2 == "implement_map_with_reduce" ]; then 
-    STR="Implement Map With Reduce" 
+    STR="Implement Map with Reduce" 
 elif [ $2 == "function_spies" ]; then 
     STR="Function Spies" 
 elif [ $2 == "blocking_event_loop" ]; then 
