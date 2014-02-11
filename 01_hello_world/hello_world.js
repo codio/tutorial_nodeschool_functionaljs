@@ -8,6 +8,6 @@
 // Then just start coding away in this file
 
 module.exports = function(input) {
-  return input.toUpperCase()
+   // SOLUTION GOES HERE
 }
 
