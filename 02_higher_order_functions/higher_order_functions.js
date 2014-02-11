@@ -8,9 +8,6 @@
 // Then just start coding away in this file
 
 function repeat(operation, num) {
-  // SOLUTION GOES HERE
+// SOLUTION GOES HERE
 }
-
 module.exports = repeat
-
-

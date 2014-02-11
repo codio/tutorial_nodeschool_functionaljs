@@ -16,5 +16,3 @@ function loadUsers(userIds, load, done) {
 }
 
 module.exports = loadUsers
-
-

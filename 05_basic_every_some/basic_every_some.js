@@ -12,4 +12,3 @@ module.exports = function checkUsersValid(goodUsers) {
     // SOLUTION GOES HERE
   };
 }
-

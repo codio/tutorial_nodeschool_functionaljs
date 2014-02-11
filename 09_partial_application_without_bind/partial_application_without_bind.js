@@ -14,4 +14,3 @@ function logger(namespace) {
 }
 
 module.exports = logger
-
