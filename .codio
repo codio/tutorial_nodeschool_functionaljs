@@ -1,0 +1,12 @@
+{
+// Configure your Run and Preview buttons here.
+
+  // Run button configuration
+  "commands": { 
+    "Install Functional Javascript" : "npm install -g functional-javascript-workshop@latest",    
+    "Run Lesson" : "./ns-executes.sh run {{filename_no_ext}} {{path}}",
+    "Verify Lesson" : "./ns-executes.sh verify {{filename_no_ext}} {{path}}",
+    "Completed Lessons" : "functional-javascript-workshop",
+    "Run with Node" : "node {{filepath}} 3 4 5"
+  }
+}

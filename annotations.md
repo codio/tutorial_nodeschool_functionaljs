@@ -1,3 +1,4 @@
+
 @annotation:tour hello_world
 #1. Hello World
 ##Challenge
@@ -33,7 +34,7 @@ It's ok to use a loop in your implementation, bonus points if you don't.
 
 
 @annotation:tour basic_map
-#Basic: Map
+#3. Basic: Map
 ##Challenge
 Convert the following code from a for-loop to Array#map:
 
@@ -61,7 +62,7 @@ Convert the following code from a for-loop to Array#map:
 
 
 @annotation:tour basic_filter
-#3. Basic: Filter
+#4. Basic: Filter
 ##Challenge
 Use [Array#filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) to write a function called `getShortMessages`.
 
@@ -473,7 +474,7 @@ A timeout is queued to fire after 1 second, which will print the results of the 
 Try to perform as many operations as you can before the timeout fires!
 
 ###Hint
-- If your program takes a long time to run, something is probably wrong. Use Control - C to kill the node process.
+- If your program takes a long time to run, something is probably wrong. Use `Ctrl + c` to kill the node process.
 
 ###Documentation
 - [Timers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Timers)
@@ -681,7 +682,7 @@ A function, `slice` that exhibits the following behaviour:
     nums.slice(1, 2) // [2]
 
 ###Conditions
-- Do not use the `function` keyword :D
+- Do not use the `function` keyword
 
 ###Hints
 - This is absolutely a one liner.
@@ -689,6 +690,7 @@ A function, `slice` that exhibits the following behaviour:
 - Function#call executes whatever the value of `this` when it's invoked. e.g. someFunction.call() // `this` inside `call` is `someFunction`
 - Function.call itself is a function thus it inherits from `Function.prototype`
 
+    
     var myFunction() {
       console.log('called my function')
     }

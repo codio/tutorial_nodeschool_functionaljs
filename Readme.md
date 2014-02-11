@@ -1,116 +1,89 @@
-# Functional Javascript Workshop
-<img alt="Functional Javascript Workshop" src="https://f.cloud.github.com/assets/43438/1368315/63919ad8-3997-11e3-909e-8193f5a94b59.png" align="right">
-
-### Teaching fundamental functional programming features of Javascript.
-
-#### No libraries required (i.e. no underscore), just ES5.
-
-<a href="https://nodei.co/npm/functional-javascript-workshop/" ><img src="https://nodei.co/npm/functional-javascript-workshop.png?downloads=true&stars=true"></a>
-
-[![Gittip](http://img.shields.io/gittip/timoxley.png)](https://www.gittip.com/Shields.io/)
-## Mission
-
-Many functional programming learning resources will teach you to write functional code, but it's often highly indirect,
-deeply abstracted, requires understanding complex relationships between custom library calls, and doesn't represent
-the reality of how people actually write JavaScript.
-
-The goal of this workshop is to create realistic problems that can be solved using terse, vanilla, idomatic JavaScript.
-
-**Please read the exercises thoroughly and obey all conditions, they are there to help you learn!**
-
-## Installation & Update
-
-```
-$ npm install -g functional-javascript-workshop@latest
-```
-
-**Note**: the workshop is being updated weekly. 
-Please regularly rerun the above command to get the latest set of exercises.
-
-## Usage Instructions
-
-#### 1. Selecting a problem to work on
-
-Once the workshop is installed, run `functional-javascript-workshop` to print a menu
-where you can select a problem to work on.
-
-```
-$ functional-javascript-workshop
-```
-
-Problems are listed in rough order of difficulty. You are advised to complete them in order, as later problems
-will build on skills developed by solving previous problems.
-
-#### 2. Writing your solution
-
-Once you have selected a problem, the workshop will remember which problem you are working on. 
-Using your preferred editor, simply create a file to write your solution in. Most problems will
-supply some boilerplate with which to get started. Copy this from the problem description to your
-solution file.
-
-#### 3. Testing your solution
-
-Use the workshop's `run` command to point the workshop at your solution file. Your solution will loaded 
-and passed the problem input. This usually won't perform any validation, it will only show the program output.
-
-```
-$ functional-javascript-workshop run mysolution.js
-```
- 
-#### 4. Verifying your solution
-
-Your solution will be verified against the output of the 'official' solution. 
-If all of the output matches, then you have successfully solved the problem!
-
-```
-$ functional-javascript-workshop verify mysolution.js
-```
-
-## Stuck?
-
-Feedback and critisism is welcome, please log your troubles in [issues](https://github.com/timoxley/functional-javascript-workshop/issues). 
-
-Full curriculum reviews [like this one](https://github.com/timoxley/functional-javascript-workshop/issues/7) are incredibly helpful. More feedback like this please!
-
-We're looking for more practical problems, so if you come across a problem in your day-to-day work which was solved simply and elegantly with some functional JavaScript techniques, please help us create an exercise out of it.
+[![nodeschool-logo](stuff/nodeschool.png)](http://nodeschool.io)
+#Tutorial 04 - Functional Javascript
+**Learn fundamental functional programming features of JavaScript in vanilla ES5.**
 
 
-## Screenshots
+*All content is written and produced by [http://nodeschool.io](http://nodeschool.io). Please see the credits at the bottom of this page and if you have learnt a lot from these tutorials, please make a donation (also at the bottom).*
 
-![screen shot 2013-09-27 at 5 18 45 pm](https://f.cloud.github.com/assets/43438/1225514/08c87a70-276a-11e3-8db7-485e3c760373.png)
-![screen shot 2013-09-23 at 9 13 02 pm](https://f.cloud.github.com/assets/43438/1191466/f289f38a-2451-11e3-9ba5-a3c224b5ca97.png)
-
-## Resources
-
-[A growing collection of quality functional javascript resources can be found in the wiki](https://github.com/timoxley/functional-javascript-workshop/wiki). 
+#Video
+If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : [https://vimeo.com/86100550](https://vimeo.com/86100550)
 
 
-## Thanks rvagg
+#Installation
+1. Create an account with http://codio.com (don't be frightened, it's free for all public projects).
+1. You're probably looking at this in GitHub already but if not, go to [https://github.com/codio](https://github.com/codio) and search for "Nodeschool", then select the tutorial you want.
+2. Copy the SSH or HTTPS url from beneath al the GitHub settings on the right hand side (NOT the main browser page url).
+3. Go to [Create Project](https://codio.com/s/docs/console/creating/) in your Codio Dashboard, select the Git tab and paste in the url you just copied.
+4. Press Create Project and you'll be in the IDE with your tutorial project ready and waiting.
 
-This tutorial was built using rvagg's [workshopper](https://github.com/rvagg/workshopper) framework.
+You'll now need to install the Nodeschool tutorial (each one is an npm package) onto your project's Box. There are two ways to do this ...
 
-## Summary
+- Hands Dirty: open up a Terminal with from the 'Tools->Terminal' menu, then enter `npm install -g functional-javascript-workshop@latest`.
+- Lazy Way: click on the "Install Functional Javascript" menu item. Once installed, you can close that tab.
 
-```
- project  : functional-javascript
- repo age : 3 months
- active   : 32 days
- commits  : 119
- files    : 70
- authors  :
-    69	Tim                     58.0%
-    40	Tim Oxley               33.6%
-     2	ZJ                      1.7%
-     1	Matthew Hokanson        0.8%
-     1	Naor Biton              0.8%
-     1	Arvid Andersson         0.8%
-     1	Steve Teo               0.8%
-     1	Wei Lu                  0.8%
-     1	Pavel Kornilov          0.8%
-     1	Brendon Murphy          0.8%
-     1	Lorcan Coyle            0.8%
-```
 
-## Licence
+#2 Writing your code
+There are two different ways you can use Codio to run the Nodeschool.io tutorials. You can switch between them at any time. The great thing is that your code is neatly organized into lessons that you can refer back to later.
 
-MIT
+- **Tutorial Mode** : select the 'Tools->Tutorial' menu item. Each lesson is presented with a Code window on the left and the instructions on the right, which can be scrolled through and left in place while you code. You can navigate between lessons using the buttons above the instructions.
+- **Manual Mode** : open up the lessons folders and you will see a filename similar to the folder name. You can write your code here and click on the blue icon in the gutter to open up the instructions popup.
+
+
+#Testing your code
+There are 2 ways you can test out your code using Node.js.
+
+###1. The Easy Way: Add an entry to the 'Run' menu
+The easiest and fastest way of working is to modify the 'Run' menu (second dropdown menu from the right). To do this open up the `.codio` file in the root of the project. You should see a preconfigured item ...
+
+  "Run with Node" : "node {{filepath}} 3 4 5"
+
+This command will always run the current code using node in a terminal window. You **must** have your code tab selected in the IDE before you press it or you will get a nonsense error. 
+
+Each lesson requires different arguments so when you switch lessons, you should modify these arguments to suit. Now, when you in the 'write/test' cycle you can simply press the "Run with Node" menu option. 
+
+![instructions](stuff/menu.png)
+
+###2. Shell out to the Terminal
+You can open a Terminal window at any time by selecting the 'Tools->Terminal' menu item. Your terminal defaults to the `~/workspace` folder, which equates to the root of your Codio code project. If you are writing your code in the lesson folder (for example `02_higher_order_functions`) then you will need to `cd` into that folder, so something like this
+
+    cd 02_higher_order_functions
+    node higher_order_functions.js 1 2 3
+
+#Running your Code via the Tutorial system
+When you've got your code to the point where you think it is ready for the Tutorial system to check it, you should select the 'Run Lesson' item from the 'Run' menu. The tutorial system will automatically supply any required arguments to your project as required by the current lesson. You can see the 'Run Lesson' item in the above menu screenshot.
+
+#Verifying your code
+Once you think you have completed the challenge, select the 'Verify Lesson' option from the 'Run' dropdown menu. The output will be shown in the console window. If is passes, you will see something like this
+
+![Passed](stuff/passed.png)
+
+#Which lessons have I successfully completed?
+If you press the "Completed Lessons" command from the same menu, you will be shown in the console the list of all challenges that are already completed. You will see the following screen in the Terminal window hat appears. Completed lessons are clearly marked on the right.
+
+![Passed](stuff/completed.png)
+
+#Cheating (checking the recommended solution)
+Each lesson comes with a `solution.js` file. Try to avoid looking at it other than for verification purposes. We have highly sophisticated algorithms built into Codio that will detect any forms of cheating, peeking (however quick and subtle) and will publicly expose to your peers.
+
+#Doing everything from the command line
+For completeness sake, you can do everything from the command line rather than using Codio. Just open up the Terminal window from 'Tools->Terminal'.
+
+Each tutorial is installed as node module that can be run from the command line. If you take a look at the [http://nodeschool.io](http://nodeschool.io) documentation, you can see how everything can be done from the command line.
+
+#Other Tutorials
+[http://nodeschool.io](http://nodeschool.io) has a several excellent tutorials. We have packaged these up so they run within Codio and the full set can be found on our [Nodeschool Tutorial page.](http://codio.com/tutorials)
+
+#Credits
+![Nodeschool](http://nodeschool.io/images/nodeschool.png)
+
+The Nodeschool tutorials are the much excellent work of the following hackers
+
+Rod Vagg ([github/rvagg](https://github.com/rvagg), [twitter@rvagg](http://twitter.com/rvagg)), 
+Andrey Sidorov ([github/sidorares](https://github.com/sidorares), [twitter@sidorares](http://twitter.com/sidorares)), 
+Julián Duque ([github/julianduque](https://github.com/julianduque), [twitter@julian_duque](http://twitter.com/julian_duque)), 
+Lars-Magnus Skog ([github/ralphtheninja](https://github.com/ralphtheninja), [twitter@ralphtheninja](http://twitter.com/ralphtheninja)), 
+Tim Inman ([github/thehack](https://github.com/thehack), [twitter@timinman](http://twitter.com/timinman)), 
+Dan Flettre ([github/Flet](https://github.com/Flet), [twitter@flettre](http://twitter.com/flettre)) 
+
+##Donations
+If you feel you have benefitted from this or the other tutorials, how about [donating to Rodd Vagg using gittip](https://www.gittip.com/rvagg/)
