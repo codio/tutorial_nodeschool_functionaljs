@@ -2,8 +2,8 @@
 #Tutorial 04 - Functional Javascript
 **Learn fundamental functional programming features of JavaScript in vanilla ES5.**
 
-
-*All content is written and produced by [http://nodeschool.io](http://nodeschool.io). Please see the credits at the bottom of this page and if you have learnt a lot from these tutorials, please make a donation (also at the bottom).*
+###About the Author###
+This tutorial was written by [Tim Oxley](https://github.com/timoxley). If you find this tutorial helpful and you'd like to say thanks to Tim, why not [make a small donation here?](https://www.gittip.com/timoxley/)
 
 #Video
 If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : [https://vimeo.com/86100550](https://vimeo.com/86100550)
@@ -84,6 +84,3 @@ Julián Duque ([github/julianduque](https://github.com/julianduque), [twitter@ju
 Lars-Magnus Skog ([github/ralphtheninja](https://github.com/ralphtheninja), [twitter@ralphtheninja](http://twitter.com/ralphtheninja)), 
 Tim Inman ([github/thehack](https://github.com/thehack), [twitter@timinman](http://twitter.com/timinman)), 
 Dan Flettre ([github/Flet](https://github.com/Flet), [twitter@flettre](http://twitter.com/flettre)) 
-
-##Donations
-If you feel you have benefitted from this or the other tutorials, how about [donating to Rodd Vagg using gittip](https://www.gittip.com/rvagg/)
