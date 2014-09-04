@@ -1,4 +1,4 @@
-[![nodeschool-logo](stuff/nodeschool.png)](http://nodeschool.io)
+[![nodeschool-logo](.guides/stuff/nodeschool.png)](http://nodeschool.io)
 #Tutorial 04 - Functional Javascript
 **Learn fundamental functional programming features of JavaScript in vanilla ES5.**
 
@@ -7,6 +7,8 @@ This tutorial was written by [Tim Oxley](https://github.com/timoxley). If you fi
 
 #Video
 If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : [https://vimeo.com/86100550](https://vimeo.com/86100550)
+
+**Please Note the Video shows our old 'Tools>Tutorial' method, use 'Tools>Guides(Beta)>Play' now**
 
 
 #Installation
@@ -25,7 +27,7 @@ You'll now need to install the Nodeschool tutorial (each one is an npm package) 
 #2 Writing your code
 There are two different ways you can use Codio to run the Nodeschool.io tutorials. You can switch between them at any time. The great thing is that your code is neatly organized into lessons that you can refer back to later.
 
-- **Tutorial Mode** : select the 'Tools->Tutorial' menu item. Each lesson is presented with a Code window on the left and the instructions on the right, which can be scrolled through and left in place while you code. You can navigate between lessons using the buttons above the instructions.
+- **Tutorial Mode** : select the 'Tools->Guides(Beta)>Play' menu item. Each lesson is presented with a Code window on the left and the instructions on the right, which can be scrolled through and left in place while you code. You can navigate between lessons using the buttons above the instructions.
 - **Manual Mode** : open up the lessons folders and you will see a filename similar to the folder name. You can write your code here and click on the blue icon in the gutter to open up the instructions popup.
 
 
@@ -41,7 +43,7 @@ This command will always run the current code using node in a terminal window. Y
 
 Each lesson requires different arguments so when you switch lessons, you should modify these arguments to suit. Now, when you in the 'write/test' cycle you can simply press the "Run with Node" menu option. 
 
-![instructions](stuff/menu.png)
+![instructions](.guides/stuff/menu.png)
 
 ###2. Shell out to the Terminal
 You can open a Terminal window at any time by selecting the 'Tools->Terminal' menu item. Your terminal defaults to the `~/workspace` folder, which equates to the root of your Codio code project. If you are writing your code in the lesson folder (for example `02_higher_order_functions`) then you will need to `cd` into that folder, so something like this
@@ -55,12 +57,12 @@ When you've got your code to the point where you think it is ready for the Tutor
 #Verifying your code
 Once you think you have completed the challenge, select the 'Verify Lesson' option from the 'Run' dropdown menu. The output will be shown in the console window. If is passes, you will see something like this
 
-![Passed](stuff/passed.png)
+![Passed](.guides/stuff/passed.png)
 
 #Which lessons have I successfully completed?
 If you press the "Completed Lessons" command from the same menu, you will be shown in the console the list of all challenges that are already completed. You will see the following screen in the Terminal window hat appears. Completed lessons are clearly marked on the right.
 
-![Passed](stuff/completed.png)
+![Passed](.guides/stuff/completed.png)
 
 #Cheating (checking the recommended solution)
 Each lesson comes with a `solution.js` file. Try to avoid looking at it other than for verification purposes. We have highly sophisticated algorithms built into Codio that will detect any forms of cheating, peeking (however quick and subtle) and will publicly expose to your peers.
@@ -74,7 +76,7 @@ Each tutorial is installed as node module that can be run from the command line.
 [http://nodeschool.io](http://nodeschool.io) has a several excellent tutorials. We have packaged these up so they run within Codio and the full set can be found on our [Nodeschool Tutorial page.](http://codio.com/tutorials)
 
 #Credits
-![Nodeschool](http://nodeschool.io/images/nodeschool.png)
+[![nodeschool-logo](.guides/stuff/nodeschool.png)](http://nodeschool.io)
 
 The Nodeschool tutorials are the much excellent work of the following hackers
 
